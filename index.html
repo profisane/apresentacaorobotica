@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiteRobótica</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+            <img src="img/logo.png" alt="Logo" class="container__imagem" width="100" height="100">
+            <h1 class="container__titulo--negrito"><b class="container__titulo">Colégio Estadual</b>  Pedro Stelmachuk</h1>
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+
+            <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+            <li class="opções__item"><a href="#" class="opções__link">nossos projetos</a></li>
+        </ul>
+
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
+            <a href="#" class="container__link">
+                <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Projetos desenvolvido nas aulas de robótica</h2>
+        <p class="banner__texto">Encontre aqui o resultado de nossas produções!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Projetos desenvolvidos</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/arcoiris.png"
+                            alt="Arco-iris"></div>
+                    <div class="swiper-slide"><img src="img/carrinho.png" 
+                            alt="Carrinho"></div>
+                    <div class="swiper-slide"><img src="img/semáforo.png"
+                            alt="semáforo"></div>
+                    <div class="swiper-slide"><img src="img/lab.jpg" alt="lab"></div>
+                    <div class="swiper-slide"><img src="img/labgrupodois.jpg" alt="grupodois"></div>
+                </div>
+
+
+                         <!-- grupo 1 -->
+                         <div class="swiper-button-prev"></div>
+                         <div class="swiper-button-next"></div>
+                     </div>
+         
+                     <div class="card">
+                         <!-- 1º linha -->
+                         <div class="card__descrição">
+                             <!-- 1º coluna -->
+                             <div class="descrição">
+                                 <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                                 <h3 class="descrição__titulo">Grupo 1</h3>
+                                 <h2 class="descrição__titulo-livro">Kauan, Kaio, Mateus Diego e Matheus K.</h2>
+                                 <p class="descrição__texto"> Alunos do 2º A
+                                 </p>
+                             </div>
+                             <!-- 2º coluna -->
+                             <img src="img/pokazorba.jpg" class="grupo um" width="280" height="200">
+                         </div>
+         
+                         <!-- 2º linha -->
+                         <div class="card__botões">
+                             <!-- 1º coluna -->
+                             <ul class="botões">
+                                 <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+             
+                             </ul>
+                             <!-- 2º coluna -->
+                             <a href="https://kvaschinieski.github.io/robotica/" class="botões__ancora">Saiba mais</a>
+                         </div>
+                     </div>
+                 </div>
+
+                          <!-- grupo 2 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                        <h3 class="descrição__titulo">Grupo 2</h3>
+                        <h2 class="descrição__titulo-livro">Eduardo, Kelly, Letícia e Raiane</h2>
+                        <p class="descrição__texto"> Alunos do 2º A
+                        </p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/grupodois.jpg" class="grupo dois" width="300" height="200">
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+    
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="https://letyzx.github.io/mobilefirst/" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+ 
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+            
+    </script>
+</body>
+
+</html>
